@@ -1,0 +1,20 @@
+ng lint -> escaneia o código e vê se tá de acordo com o style guide, no caso checar se o código tem algum erro, ou se segue os padrões
+e convenções da linguagem em uso (usar o comando ng lint no terminal).
+
+ng test -> muitos comandos do Angular CLI geram um arquivo com a extensão .spec.ts.
+esses são os arquivos de teste de seu projeto e você pode usar o CLI para executar todos eles e verificar se algum bug foi criado.
+abrindo o karma que é uma ferramenta de testes que permite executar cada linha de código do teste em diferentes browsers.
+
+ng e2e -> ele é o teste de integração, é utilizado para referenciar os testes do tipo End to End.
+Na estrutura de pastas fornecida pelo Angular CLI, esses testes encontram-se no diretório /e2e
+
+ng new nomeProjeto -> cria um novo projeto
+ng g c nomeComponent -> cria um novo component
+ng g s nomeService -> cria um novo service
+
+ng serve -> inicia o novo servidor
+npm install -> instala todas as bibliotecas do node
+
+
+importante!!
+antes de cada teste colocar os providers
