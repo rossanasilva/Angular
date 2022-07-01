@@ -15,6 +15,11 @@ ng g s nomeService -> cria um novo service
 ng serve -> inicia o novo servidor
 npm install -> instala todas as bibliotecas do node
 
-
 importante!!
 antes de cada teste colocar os providers
+
+dependecies -> dependencias necessárias para executar a aplicação
+devDependencies -> dependencias necessárias para desenvolver a aplicação
+
+ng build ->ará todo processamento e gerará uma pasta dist,
+na qual estarão os arquivos prontos para serem abertos em um navegador.
