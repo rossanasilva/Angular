@@ -23,3 +23,27 @@ devDependencies -> dependencias necessárias para desenvolver a aplicação
 
 ng build ->ará todo processamento e gerará uma pasta dist,
 na qual estarão os arquivos prontos para serem abertos em um navegador.
+
+diretivas -> são instruções, componentes são diretivas com template
+diretivas estruturais -> utilizadas para estruturar o código (*ngFor, *ngIf)
+diretivas de atributos -> interagem com o elemento em que foram aplicadas (ng-class, ng-style)
+
+diretiva *ngIf -> mesma função que o if, recomendado para árvores com grandes elementos
+[hidden] -> recomendado para árvores com pequenos elementos
+
+diretiva *ngSwitch ->
+diretiva *ngSwitchCase -> 
+
+imports:
+
+npm install:
+1. npm install bootstrap
+2. npm install ngx-bootstrap --save
+3. npm install materialize-css --save
+4. npm install angular2-materialize --save
+5. npm install jquery@^2.2.4 --save
+6. npm install hammerjs --save
+
+
+styles.scss:
+1. @import '~bootstrap/dist/css/bootstrap.min.css';
