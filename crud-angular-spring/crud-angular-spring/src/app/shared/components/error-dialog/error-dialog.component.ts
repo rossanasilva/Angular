@@ -8,8 +8,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 })
 export class ErrorDialogComponent implements OnInit {
 
-  constructor(@Inject(MAT_DIALOG_DATA) public data: string) {} //injetar o tipo do diolog
-  // para aparecer a pop-up
+  constructor(@Inject(MAT_DIALOG_DATA) public data: string) {}
 
   ngOnInit(): void {
   }

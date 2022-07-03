@@ -7,25 +7,22 @@ import { delay, first, tap } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-
 export class CoursesService {
 
   private readonly API = 'api/courses';
 
-  constructor(private httpCLient: HttpClient) { }
+  constructor(private httpClient: HttpClient) { }
 
   list() {
-    return this.httpCLient.get<Course[]>(this.API)
+    return this.httpClient.get<Course[]>(this.API)
     .pipe(
       first(),
-      //delay(5000),
+      // delay(5000),
       tap(courses => console.log(courses))
     );
-   // observable que retorna um array de cursos
   }
 
-  save(record: Course){
-    return  this.httpCLient.post<Course>(this.API, record).pipe(first());
+  save(record: Course) {
+    return this.httpClient.post<Course>(this.API, record).pipe(first());
   }
-
 }

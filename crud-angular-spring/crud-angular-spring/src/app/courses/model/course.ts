@@ -1,5 +1,5 @@
-export interface Course { //tabela de cursos
-  _id: string; // chave primária - identificador
+export interface Course {
+  _id: string;
   name: string;
   category: string;
 }
