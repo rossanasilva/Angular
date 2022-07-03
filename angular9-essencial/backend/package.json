@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.1"
+    "json-server": "^0.17.0"
   }
 }
-
-// usa o json server: ele lê um arquivo que tem um json e cria uma api baseada nesse json
