@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Cento de salgados",
+      "price": 130
+    },
+    {
+      "id": "2",
+      "name": "Cento de doces",
+      "price": 120
+    },
+    {
+      "id": "3",
+      "name": "Torta o KG",
+      "price": 80
+    }
+  ]
+}

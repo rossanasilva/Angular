@@ -1,0 +1,21 @@
+.sidenav {
+  background-color: #A2F0FD;
+  width: 200px;
+}
+.sidenav .mat-mdc-list-item .mdc-list-item__primary-text {
+  color: black !important;
+}
+
+.sidenav .mat-mdc-list-item:hover .mdc-list-item__primary-text {
+  color: #ffffff !important;
+}
+
+.sidenav .mat-mdc-list-item .material-icons {
+  margin-right: 10px;
+}
+
+/* Redefine as variáveis CSS do MDC se necessário */
+.sidenav .mat-mdc-list-item {
+  --mdc-list-list-item-label-text-color: black;
+  --mdc-list-list-item-hover-label-text-color: #ffffff;
+}
